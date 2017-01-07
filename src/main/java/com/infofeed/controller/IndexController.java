@@ -13,4 +13,9 @@ public class IndexController {
     public String getIndex() {
         return "Hello World!";
     }
+    
+    @RequestMapping("/greetings") 
+    public String getGreetings() {
+    	return "Hello from Karthik!";    	
+    }
 }
